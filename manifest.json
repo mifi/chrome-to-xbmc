@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Send to XBMC",
+  "version": "1.0",
+  "description": "",
+
+  "permissions": ["tabs", "webRequest", "*://*/"],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_name": "TODO",
+    "default_popup": "popup.html"
+  }
+}
